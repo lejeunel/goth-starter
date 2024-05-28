@@ -12,6 +12,9 @@ install:
 	@npm install -D tailwindcss
 	@npx tailwindcss init
 
+css:
+	tailwindcss -i views/css/app.css -o public/styles.css --watch
+
 # auto re-build and relaunch app upon changes
 air:
 	air

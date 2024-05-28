@@ -14,6 +14,11 @@ Run hot-reload pipeline using [[https://github.com/cosmtrek/air][air]]:
 make air
 #+end_src
 
+Run automatic generation of CSS using [[https://tailwindcss.com/][Tailwind]]:
+#+begin_src sh
+make css
+#+end_src
+
 * Build for production
 
 #+begin_src sh
