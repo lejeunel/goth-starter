@@ -1,0 +1,21 @@
+#+title: Golang/Templ/Tailwind/HTMX starter kit
+
+* Development
+
+Install dependencies:
+
+#+begin_src sh
+make install
+#+end_src
+
+Run hot-reload pipeline using [[https://github.com/cosmtrek/air][air]]:
+
+#+begin_src sh
+make air
+#+end_src
+
+* Build for production
+
+#+begin_src sh
+make build
+#+end_src

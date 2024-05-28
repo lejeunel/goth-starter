@@ -1,0 +1,5 @@
+*_templ.go
+.env
+bin
+/node_modules/
+/tmp/
