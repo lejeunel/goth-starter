@@ -6,7 +6,7 @@ import (
 
 templ Base() {
 	<!DOCTYPE html>
-	<html lang="en">
+	<html lang="en" class="light">
 		<head>
 			<title>Site Title</title>
 			<link rel="icon" type="image/x-icon" href="/public/favicon.ico"/>
@@ -20,7 +20,15 @@ templ Base() {
 		</head>
 		<body class="antialiased">
 			@components.Navigation()
-			{ children... }
+            <div class="flex mt-6 ...">
+                <div class="flex-1 w-32 ...">
+                </div>
+                <div class="flex-1 w-64 ...">
+                    { children... }
+                </div>
+                <div class="flex-1 w-32 ...">
+                </div>
+            </div>
 		</body>
 	</html>
 }

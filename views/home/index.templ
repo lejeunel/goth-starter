@@ -6,11 +6,11 @@ import (
 
 templ Index(items []string) {
 	@layouts.Base() {
-        <p class="font-bold">The quick brown foxxx ...</p>
+        <p class="font-semibold">List of entries:</p>
 		<div class="flex flex-col items-center">
         <ul>
         for _, item := range items {
-            <li class="font-italic">{ item }</li>
+            <li class="italic">{ item }</li>
         }
         </ul>
         </div>
